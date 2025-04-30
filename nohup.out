@@ -1,0 +1,27 @@
+2025-04-30 11:50:13.332 
+Warning: the config option 'server.enableCORS=false' is not compatible with 'server.enableXsrfProtection=true'.
+As a result, 'server.enableCORS' is being overridden to 'true'.
+
+More information:
+In order to protect against CSRF attacks, we send a cookie with each request.
+To do so, we must specify allowable origins, which places a restriction on
+cross-origin resource sharing.
+
+If cross origin resource sharing is required, please disable server.enableXsrfProtection.
+            
+Usage: streamlit run [OPTIONS] TARGET [ARGS]...
+Try 'streamlit run --help' for help.
+
+Error: Invalid value: File does not exist: streamlit_app.py
+2025-04-30 11:50:43.420 
+Warning: the config option 'server.enableCORS=false' is not compatible with 'server.enableXsrfProtection=true'.
+As a result, 'server.enableCORS' is being overridden to 'true'.
+
+More information:
+In order to protect against CSRF attacks, we send a cookie with each request.
+To do so, we must specify allowable origins, which places a restriction on
+cross-origin resource sharing.
+
+If cross origin resource sharing is required, please disable server.enableXsrfProtection.
+            
+2025-04-30 11:50:43.432 Port 8501 is already in use
